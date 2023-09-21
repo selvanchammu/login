@@ -1,0 +1,48 @@
+.login{
+    border: 1px solid #ededed;
+    padding: 10px 10px 10px 10px;
+    position: relative;
+    width: 300px;
+    border-radius: 5px;
+    text-align: center;
+    margin: 14% auto;
+    background-color: white;
+}
+body{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    padding: 0 auto;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #4070f4;
+}
+.login input{
+    border-radius: 5px;
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    width: 90%;
+    border-color: #ededed;
+}
+.button{
+    border: none;
+    padding: 5px 5px 5px 5px;
+    margin: 5px;
+    color: #b6cdd4;
+    background-color: white;
+}
+.input{
+        width: 95%;
+        border-radius: 5px;
+        border-color: #ededed;
+        border: 1px solid #ededed;
+        background-color: #0171d3;
+        padding: 5px 5px 5px 5px;
+
+}
+.fa-eye{
+    position: absolute;
+    top: 45%;
+    right: 10%;
+}

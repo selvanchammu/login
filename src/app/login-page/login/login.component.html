@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<head>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <link rel="stylesheet" href="./login.component.css">
+</head>
+<body>
+    <div class="login">
+        <h2>Login</h2>
+        <input type="text" placeholder="Email" name="email" [(ngModel)]=" loginObj.Email">
+        <input type="password" placeholder="password" name="Password" [(ngModel)]=" loginObj.Password">
+        <i class="fa-regular fa-eye" id="show-pass"></i>
+        <button class="button" type="button">Forget Password?</button><br>
+        <button class="input" type="button">Login</button>
+        <div class="sign">
+            <p>Don't have an account?<a href="/signup-page">Signup</a></p>
+        </div>
+    </div>
+
+</body>
